@@ -1,0 +1,57 @@
+
+
+table{
+    border-radius: 3%;
+    border: 2px solid black;
+}
+td{
+    text-align: center;
+}
+.orange{
+    background-color: goldenrod;
+}
+
+.purple{
+    background-color: #BB40ED;
+}
+.red{
+    
+      background-color: #E62525;
+    
+}
+.pink{
+    background-color: #F071C3;
+}
+.yellow{
+    background-color: #EAED42;
+}
+.blue{
+    background-color: #4AE9F0;
+}
+.dragon{
+    background-image:url("../images/dragon.png");
+    background-position: center;
+    
+}
+.psychic{
+    background-image: url("../images/psychic.jpg");
+    background-position: center;
+}
+.fire{
+    background-image: url("../images/fire.jpg");
+    background-position: center; /* displayes the center of the background image*/
+   
+}
+.fairy{
+    background-image: url("../images/fairy.jpg");
+    background-position: center;
+    
+}
+.electric{
+    background-image: url("../images/electric.jpg");
+    background-position: center;
+}
+.water{
+    background-image: url("../images/water.jpg");
+    background-position: center;
+}
