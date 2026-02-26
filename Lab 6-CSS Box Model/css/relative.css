@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* Jake Maurice, Lab 6 CSS Box Model  Feb 25, 2026 */
+* {
+  box-sizing: border-box;
+}
+#one {
+  background-color: lavender;
+  width: 60%;
+  text-align: right;
+  margin:0px; /* margin 0 makes elements one and two be buddies and touch*/
+}
+.green {
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+}
+#two {
+  width: 25%;
+  padding: 30px 30px 0px 0px; /*applies padding to the top and the right*/
+  border: 5px solid black;
+  margin:0px;
+}
+#three{
+    border: 5px solid blue;
+    margin: 50px 50px 0px 0px;
+}
+#four{
+    border: 5px solid black;
+    margin:0px 0px 50px 50px; /* applies a margin to the left and bottom only*/
+}
+#five{
+    border: 5px solid black;
+    width: 80%;
+    margin:auto; /* centers the element but must have a defined width*/
+}
+#five img{
+    width:100%;
+}

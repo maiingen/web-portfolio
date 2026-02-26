@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* Jake Maurice, Lab 6 CSS Box Model  Feb 25, 2026 */
+*{
+    box-sizing: border-box;
+}
+h1{
+    width: 150px;
+    margin:auto;
+    border: 4px dotted blue;
+}
+#one{
+    background-color: lavender;
+    padding: 50px;
+}
+#two{
+    width:160px;
+    margin: 30px;
+    border: 4px dotted blue;
+}
+#three{
+    text-align: right;
+    border: 5px dashed red;
+    margin-right: 200px;
+}
+#four{
+    width: 600px;
+   
+    margin: auto;
+}
+#four img{
+     border: 5px solid black;
+    width: 600px;
+}
