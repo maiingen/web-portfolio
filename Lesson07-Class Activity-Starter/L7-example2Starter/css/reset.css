@@ -1,0 +1,86 @@
+@charset "utf-8";
+/*
+   The purpose of this reset sheet is to override/cancel 
+   some of the default browser styles that may creep 
+   into the final design of the web page due to inheritance
+   and precedence as this makes it harder to control the layout.
+*/
+
+/*
+   In particular, we want to start fresh with no margins, 
+   no paddings, and the box-sizing set to border-box.
+   In addition, a uniform font size and line height are
+   preferred. It's easier to control the layout this way 
+   and we can add the required margins/paddings later to 
+   specific elements when needed.
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+html {
+  background-color: orange;
+}
+body {
+  width: 80%;
+  min-width: 780px;
+  max-width: 1200px;
+  background-color: brown;
+  margin: auto;
+  border: 1px solid black;
+  overflow: auto;
+}
+header img {
+  width: 100%;
+}
+header nav ul li {
+  width: 20%;
+  float: left;
+}
+
+/*
+   It's customary to remove the underlining of links nowadays.
+*/
+nav ul a {
+  text-decoration: none;
+  color: yellow;
+}
+
+/*
+   and remove the bullet point symbols of navigational lists.
+*/
+nav ul {
+  list-style-type: none;
+}
+#leftColumn {
+  width: 34%;
+  float: left;
+}
+#rightColumn {
+  width: 66%;
+  float: left;
+}
+#rightColumn img {
+  width: 100%;
+}
+#rightColumn nav ul li {
+  width: 25%;
+  float: left;
+}
+footer {
+  clear: both;
+  overflow: auto; /* prevents container collapse*/
+}
+footer nav {
+  width: 22%;
+  float: left;
+}
+
+footer section {
+  width: 34%;
+  float: left;
+}
