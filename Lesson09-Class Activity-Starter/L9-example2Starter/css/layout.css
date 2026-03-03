@@ -1,0 +1,47 @@
+/* Jake, Lesson 9, CSS Flex, March 3, 2026 */
+body {
+  width: 80%;
+  min-width: 780px;
+  max-width: 1200px;
+  background-color:#704F23;
+  margin: auto;
+  border: 1px solid black;
+}
+header img {
+  width: 100%;
+}
+
+header .horizontalNavigation ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div {
+  display: flex;
+}
+#leftColumn {
+  width: 33%;
+}
+#rightColumn {
+  width: 67%;
+}
+
+#rightColumn img {
+  width: 100%;
+}
+#rightColumn .horizontalNavigation ul{
+    display:flex;
+
+}
+#rightColumn .horizontalNavigation ul li{
+    width:25%;
+}
+footer {
+    display: flex;
+}
+footer .verticalNavigation{
+    width:20%;
+}
+footer section {
+    width:40%;
+}

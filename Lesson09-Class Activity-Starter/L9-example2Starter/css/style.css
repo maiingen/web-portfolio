@@ -1,0 +1,17 @@
+html{
+    background-color:#BF7E15 ;
+}
+footer, .verticalNavigation li a{
+    background-color:#453218;
+    color:#E1DDA8;
+}
+#leftColumn{
+    color:#E1DDA8;
+}
+.horizontalNavigation{
+    background-color:#785E2B;
+   
+}
+nav ul li a{
+     color:#E3D352;
+}
